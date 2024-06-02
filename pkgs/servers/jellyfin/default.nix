@@ -19,8 +19,8 @@ buildDotnetModule rec {
   src = fetchFromGitHub {
     owner = "justinlime";
     repo = "jellyfin";
-    rev = "e2daf9ce2ea966ba2e031b7deb37ae247e2578b9";
-    sha256 = "sha256-gJMz2LfxC0JXqGYNKNz1zRbWZOH1UxbcoGtmdymZ/Oo=";
+    rev = "402c1b1c80a831e62d81ce84c28b50049a983fec";
+    sha256 = "sha256-TtORIKPMdVJe+VudMGsgiNAE/SAFOV6i1uOFPbXgq4k=";
   };
 
   propagatedBuildInputs = [ sqlite ];
