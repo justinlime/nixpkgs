@@ -17,9 +17,9 @@ buildDotnetModule rec {
   version = "10.9.3"; # ensure that jellyfin-web has matching version
 
   src = fetchFromGitHub {
-    owner = "jellyfin";
+    owner = "justinlime";
     repo = "jellyfin";
-    rev = "v${version}";
+    rev = "e2daf9ce2ea966ba2e031b7deb37ae247e2578b9";
     sha256 = "sha256-gJMz2LfxC0JXqGYNKNz1zRbWZOH1UxbcoGtmdymZ/Oo=";
   };
 
